@@ -29,7 +29,7 @@ NDK可以自动地将so和Java应用一起打包，极大地减轻了开发人�
 在“Location”中输入nkd-build.cmd的路径(这个是下载完ndk8后解压后的路径，这个建议放在根目录下面，路径不能有空格和中文)。根据各自的ndk路径设置，也可以点击“Browser File System…”来选取这个路径。
 在“Working Diretcoty”中输入TestNdk位置（也可以点击“Browse Workspace”来选取TestNdk目录）。如图1
 
-clip_image002
+http://images.cnitblog.com/blog/453160/201312/16130720-95f17ae1107847e5aa0d7f744cfd32b6.gif
 
 图1
 
