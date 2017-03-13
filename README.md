@@ -22,7 +22,7 @@ NDK集成了交叉编译器，并提供了相应的mk文件隔离CPU、平台、
     勾选“During manual builds”，
     勾选“During auto builds”，
     勾选“Specify working set of relevant resources”。如图3<br>
-    ![image](https://github.com/jsonhui/jnitest/blob/master/res/drawable-hdpi/three.png)<br>图3
+    ![image](https://github.com/jsonhui/jnitest/blob/master/res/drawable-hdpi/thtee.png)<br>图3
 点击“Specify Resources…”勾选TestNdk工程中新建的“jni“目录，点击”finish“。 点击“OK“，完成配置。 如图4<br>
 ![image](https://github.com/jsonhui/jnitest/blob/master/res/drawable-hdpi/four.png)<br>图4到此，恭喜你，编译环境以及成功搭建完毕！那么搭建完了，当然要玩一玩了，好了，下面我们来跑一个demo测试一把，让你了解一下ndk的开发流程
 #三、NDK程序demo的开发（下面是重点，请仔细查看）                                                  
