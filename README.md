@@ -29,11 +29,13 @@ NDK集成了交叉编译器，并提供了相应的mk文件隔离CPU、平台、
 那么搭建完了，当然要玩一玩了，好了，下面我们来跑一个demo测试一把，让你了解一下ndk的开发流程
 #三、NDK程序demo的开发（下面是重点，请仔细查看）                                                  
    ##1.在TestNdk工程中新建一个JniClient.class（为了调用C/C++代码），其内容如下：
+   ···
 package com.ndk.test;
 public class JniClient {
     static public native String AddStr(String strA, String strB);
     static public native int AddInt(int a, int b);
 }
+···
 ##2.生成 .h 的c++头文件
 ###(1)用cmd命令定位到JniClient.class 所在目录，输入“javac JniClient.java“后回车，生成JniClinet.class文件（如果是用的Eclipse建的工程，在TestNdk\bin\classes\com\ndk\test目录下就已经有JniClinet.class文件了）。
 ###(2)将JniClinet.class拷贝到TestNdk\bin\classes\com\ndk\test目录，将cmd命令定位到TestNdk\bin\classes目录，输入”javah com.ndk.test.JniClient“后回车，在TestNdk\bin\classes目录下就生成了C++头文件com_ndk_test_JniClient.h
